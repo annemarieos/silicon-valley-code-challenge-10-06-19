@@ -4,7 +4,7 @@ class VentureCapitalist
   attr_accessor :name
   @@all = []
 
-  def initialize(name, startup, total_worth)
+  def initialize(name, total_worth)
     @name = name
     @startup = startup
     @total_worth = total_worth

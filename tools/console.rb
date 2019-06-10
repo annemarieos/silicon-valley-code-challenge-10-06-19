@@ -8,5 +8,7 @@ end
 # so they will be available to test and play around with in your console
 fixies = Startup.new("Vital Fixies", "Jack", "vitalfixies.com")
 facebook = Startup.new("Facebook", "Mark Zuckerberg", "www.facebook.com")
+kkr = VentureCapitalist.new("KKR", 10000000)
+vc2 = VentureCapitalist.new("Alibaba", 500000000)
 binding.pry
 0 #leave this here to ensure binding.pry isn't the last line
